@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+* main - the function main
+*
+* Return: returns the value 0
+*/
+
+int main(void)
+{
+
+}

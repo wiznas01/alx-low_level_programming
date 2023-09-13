@@ -11,14 +11,16 @@ int main(void)
 	int x = 1;
 	int y = 2;
 	int next;
+	int count = 2;
 
 	printf("%d, %d", x, y);
-	for (int i = 3 ; i <= n ; i++)
+	while (count < n)
 	{
 		next = x + y;
 		printf(", %d", next);
 		x = y;
 		y = next;
+		count++;
 	}
 	printf("\n");
 	return (0);

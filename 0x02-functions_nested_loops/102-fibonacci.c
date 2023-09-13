@@ -20,6 +20,6 @@ int main(void)
 		x = y;
 		y = next;
 	}
-	printf"\n");
+	printf("\n");
 	return (0);
 }

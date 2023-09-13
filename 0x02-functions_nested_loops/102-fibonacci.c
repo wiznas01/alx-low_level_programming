@@ -19,7 +19,7 @@ int main(void)
 		next = x + y;
 		x = y;
 		y = next;
-		if ( i != 49)
+		if (i != 49)
 			printf(", ");
 	}
 	printf("\n");

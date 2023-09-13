@@ -13,20 +13,15 @@ void print_times_table(int n)
 	if (n > 15 || n < 0)
 		return;
 
-	for (n = 0 ; n <= 15 ; n++)
+	for (i = n ; i <= n ; i++)
 	{
-		for (i = 0 ; i <= 15 ; i++)
+		m = n * i;
+		if (i == 0)
+			printf("%d,", m);
+		else
 		{
-			m = n * i;
-			if (i == 0)
-				printf("%d, ", m);
-			else
-			{
-				printf("%2d", m);
-				if (i != 15)
-					printf(", ");
-			}
+			printf("%3d,   ", m);
 		}
-		printf("\n");
 	}
+	printf("\n");
 }

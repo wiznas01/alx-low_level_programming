@@ -7,18 +7,20 @@
 
 int main(void)
 {
-	int x = 1;
-	int y = 2;
-	int next;
+	unsigned long int x = 1;
+	unsigned long int y = 2;
+	unsigned long int next;
 	int i;
 
-	printf("%d, ", x);
+	printf("%lu, ", x);
 	for (i = 1 ; i < 50 ; i++)
 	{
-		printf("%d", y);
+		printf("%lu", y);
 		next = x + y;
 		x = y;
 		y = next;
+		if ( i != 49)
+			printf(", ");
 	}
 	printf("\n");
 	return (0);

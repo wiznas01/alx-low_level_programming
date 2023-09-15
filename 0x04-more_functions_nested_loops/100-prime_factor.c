@@ -9,7 +9,7 @@ int main(void)
 {
 	long int num = 612852475143;
 	long int primeFactor = -1;
-	
+
 	int i = 3;
 
 	while (num % 2 == 0)

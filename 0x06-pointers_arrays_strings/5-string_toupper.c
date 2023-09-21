@@ -2,11 +2,11 @@
 
 /**
  * *string_toupper - function to change all lowercase to uppercase
- * ' ': all strings
+ * @str: all strings to be converted
  * Retuns: returns string
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	char *j = str;
 
@@ -16,5 +16,5 @@ char *string_toupper(char *)
 			*j = *j - 'a' + 'A';
 		j++;
 	}
-	return (' ');
+	return (str);
 }

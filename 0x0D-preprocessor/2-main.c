@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include "putchar.h"
 
 int main(void)
 {
-	printf("%s\n", __FILE__);
+	_putchar("%s\n", __FILE__);
 	return (0);
 }

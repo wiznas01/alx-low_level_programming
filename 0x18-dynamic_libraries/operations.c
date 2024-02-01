@@ -35,12 +35,12 @@ int mul(int a, int b)
 }
 
 /**
- * division - function to add
+ * div - function to add
  * @a: first int
  * @b: second int
  * Return: returns result
  * */
-int division(int a, int b)
+int div(int a, int b)
 {
 	return (a / b);
 }
